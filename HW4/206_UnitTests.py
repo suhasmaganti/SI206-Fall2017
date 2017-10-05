@@ -181,6 +181,10 @@ class CardTests(unittest.TestCase):
 		self.assertEqual(len(p),3)
 		self.assertEqual(type(p[0]), str)
  	#(and 12)  Write at least 2 additional tests (not repeats of the above described tests). Make sure to include a descriptive message in these two so we can easily see what you are testing!
+	#Testing if each suit has 13 cards when deck is initialized
+	#def test_myTestInstanceCards(self):
+		#d = Deck()
+		#self.assertEqual(len(d.cards), 13)
 
 
 #############
